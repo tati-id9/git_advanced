@@ -37,3 +37,4 @@ def input_value():
     arg2 = int(input())
     c= Calculator(arg1, arg2)
     return c
+    
