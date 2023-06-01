@@ -22,7 +22,7 @@ def calc_memu():
             c = input_value()
             if (c.arg2!=0):
                 print(f"Результат равен: {c.__div__()}")
-            else: print("Делить на 0 нельзя")    
+            else: print("Деление на 0 невозможно")    
             print('')
         elif(user_input == 5):
             print("Завершение работы")
@@ -37,3 +37,4 @@ def input_value():
     arg2 = int(input())
     c= Calculator(arg1, arg2)
     return c
+    
